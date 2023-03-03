@@ -8,7 +8,7 @@ $item_price = (float) $xml->Item->SellingStatus->CurrentPrice;
 $item_currency = (string) $xml->Item->SellingStatus->CurrentPrice['currencyID'];
 $item_quantity = (int) $xml->Item->Quantity;
 $item_start_time = (string) $xml->Item->ListingDetails->StartTime;
-$item_end_time = (string) $xml->Item->ListingDetails->EndTime;   ```
+$item_end_time = (string) $xml->Item->ListingDetails->EndTime; 
 
 
 
